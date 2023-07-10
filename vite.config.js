@@ -12,9 +12,10 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: {
-          host: '0.0.0.0',
-          protocol: 'http:',
+          host: 'https://tessaberg.de/fredy',
           port: 9998,
+          changeOrigin: true,
+          secure: false
         },
       },
     },
