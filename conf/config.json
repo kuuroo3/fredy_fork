@@ -1,7 +1,6 @@
 {
   "interval": "60",
   "port": 9998,
-  "host": "https://tessaberg.de",
   "scrapingAnt": {
     "apiKey": "",
     "proxy": "datacenter"
