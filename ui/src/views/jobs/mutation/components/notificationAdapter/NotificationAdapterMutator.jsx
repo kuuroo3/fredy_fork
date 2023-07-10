@@ -171,6 +171,7 @@ export default function NotificationAdapterMutator({
       title="Adding a new Notification Adapter"
       visible={visible}
       style={{ width: '95%' }}
+      onCancel={() => onSubmit(false)}
       footer={
         <div>
           <Button type="secondary" disabled={selectedAdapter == null} style={{ float: 'left' }} onClick={() => onTry()}>
